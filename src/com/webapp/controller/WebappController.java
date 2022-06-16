@@ -35,6 +35,7 @@ public class WebappController {
 	@RequestMapping(value="/")
 	String m1()
 		{
+			System.out.println("Harish Pareek");
 			return "login";
 		}
 	
